@@ -35,7 +35,7 @@ section {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 36px;
   padding: 36px 40px;
 }
 .card {
@@ -49,7 +49,7 @@ section {
 
 .card-img {
   max-width: 125px;
-  max-height: 168px;
+  /* max-height: 168px; */
   object-fit: cover;
   border-radius: 5px;
 }
@@ -57,7 +57,7 @@ section {
   display: flex;
   flex-direction: column;
   /* gap: 20px; */
-  padding: 20px;
+  padding: 19px;
   /* padding-bottom: 0; */
 }
 .tag {
