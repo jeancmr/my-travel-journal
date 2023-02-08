@@ -9,7 +9,9 @@ export default function Card(props) {
         <div className="tag">
           <img className="gps-icon" src={gps} alt="gps logo" />
           <p className="country">{props.location}</p>
-          <a href={props.googleMapsUrl}>view on google maps</a>
+          <a target="_blank" href={props.googleMapsUrl}>
+            view on google maps
+          </a>
         </div>
         <h2 className="card-place">{props.title}</h2>
         <p className="card-dates">
